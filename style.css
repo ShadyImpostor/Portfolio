@@ -5,8 +5,17 @@
     background-size: cover;
 }
 
+#video {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+}
+
 .box {
-    width: 450px;
+    position: relative;
+    width: 250px;
     background: rgba(0, 0, 0, 0.4);
     padding: 40px;
     text-align: center;
@@ -17,15 +26,18 @@
 }
 
 .box-img {
+    z-index: 1;
     border-radius: 50%;
     width: 200px;
     height: 200px;
 }
 
 .box h1 {
+    z-index: 1;
     font-size: 40px;
     letter-spacing: 4px;
     font-weight: 100;
+    z-index: 1;
 }
 
 .box h5 {
@@ -59,3 +71,8 @@ ul {
         .box li a:hover {
             color: #b9b9b9;
         }
+
+
+
+
+
